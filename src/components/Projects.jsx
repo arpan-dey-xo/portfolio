@@ -10,22 +10,25 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
-    {
-      title: "Kanvex",
-      description: "Project Management Tool.",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Huffman Chat-App",
-      description: "App focused on compressing messages.",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Page Replacement Simulator",
-      description: "Calculate and compare page faults or hit.",
-      imgUrl: projImg3,
-    },
-  ];
+  {
+    title: "Kanvex",
+    description: "Project Management Tool.",
+    imgUrl: projImg1,
+    tech: ["MongoDB", "Express.js", "React", "Node.js"]
+  },
+  {
+    title: "Huffman Chat-App",
+    description: "App focused on compressing messages.",
+    imgUrl: projImg2,
+    tech: ["Python", "Flask", "Socket.IO", "JavaScript"]
+  },
+  {
+    title: "Page Replacement Simulator",
+    description: "Calculate and compare page faults or hit.",
+    imgUrl: projImg3,
+    tech: ["Python", "Tkinter", "Matplotlib"]
+  },
+];
 
   return (
     <section className="project" id="projects">

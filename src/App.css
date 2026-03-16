@@ -784,3 +784,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-item:hover{
   transform:translateY(-6px);
 }
+
+.tech-stack{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  justify-content: center;
+}
+
+.tech-badge{
+  background:#1f1f1f;
+  color:white;
+  padding:4px 10px;
+  border-radius:12px;
+  font-size:12px;
+}
